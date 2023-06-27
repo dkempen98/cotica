@@ -1,6 +1,7 @@
 body {
   background-color: var(--dark-color);
   color: var(--text);
+  margin-top: 5rem;
 }
 
 

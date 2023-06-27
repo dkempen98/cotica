@@ -1,0 +1,22 @@
+{
+  "name": "cotica",
+  "version": "1.0.0",
+  "description": "chart review application",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkempen98/cotica.git"
+  },
+  "keywords": [
+    "charts"
+  ],
+  "author": "Drew Kempen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkempen98/cotica/issues"
+  },
+  "homepage": "https://github.com/dkempen98/cotica#readme"
+}
