@@ -6,6 +6,12 @@ import Navbar from './components/Navbar';
 
 import './style/Variables.css';
 import './style/App.css';
+import { loadErrorMessages, loadDevMessages } from "@apollo/client/dev";
+
+if (process.env.NODE_ENV !== "production") {  // Adds messages only in a dev environment
+  loadDevMessages();
+  loadErrorMessages();
+}
 
 
 function App() {
